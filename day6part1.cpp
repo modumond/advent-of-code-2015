@@ -54,5 +54,7 @@ int main() {
   // Result (number of lit lights)
   std::cout << lit_lights.size() << endl;
 
+  // Close the file
+  file.close();
   return 0;
 }

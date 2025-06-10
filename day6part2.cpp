@@ -57,5 +57,7 @@ int main() {
   for (auto light : lights) total_brightness += light.second;
   std::cout << total_brightness << endl;
 
+  // Close the file
+  file.close();
   return 0;
 }

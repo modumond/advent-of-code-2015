@@ -55,5 +55,7 @@ int main() {
   // Result (number of nice strings)
   cout << nice_strings << endl;
 
+  // Close the file
+  file.close();
   return 0;
 }
